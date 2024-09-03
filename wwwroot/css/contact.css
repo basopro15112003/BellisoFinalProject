@@ -1,0 +1,259 @@
+.chatbox {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.bodychat {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    max-height: 400px;
+}
+
+.container-chatbox {
+    margin-bottom: auto;
+    width: 1000px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    background-color:#e1603a;
+    border-radius: 10px;
+}
+
+.header-chatbox h1 {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.body-chatbox {
+    background-color: rgb(252, 252, 252);
+    color: black;
+    padding: 20px 30px;
+    height: 130%;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.message {
+    background-color: rgb(231, 226, 226);
+    padding: 10px;
+    color: black;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.message img.message-image {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.user_message {
+    margin-left: auto;
+    background-color:#ffc37b;
+    color: white;
+}
+
+.time {
+    color: gray;
+}
+
+.time_user {
+    color: gray;
+    margin-left: 78%;
+}
+
+.footer-chatbox form {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    flex: 1;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(247, 246, 246);
+    border: 1px solid rgb(199, 194, 194);
+}
+
+.button1 {
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #e1603a;
+    color: white;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+}
+
+.button1:hover {
+    background-color: #e04212;
+    transition: 0.2s ease;
+}
+
+.image-upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.image-upload input {
+    display: none;
+}
+
+.image-upload span {
+    font-size: 24px;
+}
+.chatbox {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.bodychat {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    max-height: 400px;
+}
+
+.container-chatbox {
+    margin-bottom: auto;
+    width: 1000px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    background-color:#e1603a;
+    border-radius: 10px;
+}
+
+.header-chatbox h1 {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.body-chatbox {
+    background-color: rgb(252, 252, 252);
+    color: black;
+    padding: 20px 30px;
+    height: 130%;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.message {
+    background-color: rgb(231, 226, 226);
+    padding: 10px;
+    color: black;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.message img.message-image {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.user_message {
+    margin-left: auto;
+    background-color:#ffc37b;
+    color: white;
+}
+
+.time {
+    color: gray;
+}
+
+.time_user {
+    color: gray;
+    margin-left: 78%;
+}
+
+.footer-chatbox form {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    flex: 1;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(247, 246, 246);
+    border: 1px solid rgb(199, 194, 194);
+}
+
+.button1 {
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #e1603a;
+    color: white;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+}
+
+.button1:hover {
+    background-color: #e04212;
+    transition: 0.2s ease;
+}
+.chatbox_img{
+    width: 40%;
+}
+.image-upload {
+    margin-top: 8px;
+    position: absolute;
+    display: flex;
+    height: 49px;
+    align-items: center;
+    margin-left: 80%;
+
+}
+.image-upload img {
+    width: 35px;
+    height: 35px;
+
+}
+.image-upload input {
+    display: none;
+}
+
+.image-upload span {
+    font-size: 24px;
+}
